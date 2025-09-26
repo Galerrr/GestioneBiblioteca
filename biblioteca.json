@@ -1,0 +1,78 @@
+{
+  "libri": {
+    "1": {
+      "titolo": "Come l'arancio amaro",
+      "autore": "Milena Palminteri",
+      "anno": "2024",
+      "genere": "narrativa",
+      "disponibile": true,
+      "prestiti": [
+        {
+          "nome": "Maria",
+          "data_prestito": "2024-04-23"
+        },
+        {
+          "nome": "Luigi",
+          "data_prestito": "2024-06-14"
+        }
+      ]
+    },
+    "2": {
+      "titolo": "L'assassinio di Roger Ackroyd",
+      "autore": "Agatha Christie",
+      "anno": "1926",
+      "genere": "giallo",
+      "disponibile": false,
+      "prestiti": [
+        {
+          "nome": "Tommaso",
+          "data_prestito": "2024-01-25"
+        },
+        {
+          "nome": "Matteo",
+          "data_prestito": "2024-02-23"
+        }
+      ]
+    },
+    "3": {
+      "titolo": "Cronache del ghiaccio e del fuoco",
+      "autore": "George R. Martin",
+      "anno": "1996",
+      "genere": "fantasy",
+      "disponibile": false,
+      "prestiti": [
+        {
+          "nome": "Emilio",
+          "data_prestito": "2024-01-06"
+        },
+        {
+          "nome": "Martina",
+          "data_prestito": "2024-02-28"
+        }
+      ]
+    },
+    "4": {
+      "titolo": "Lord of Mysteries 1: The Clown, Part 1",
+      "autore": "Cuttlefish That Loves Diving",
+      "anno": "2025",
+      "genere": "mistero",
+      "disponibile": true,
+      "prestiti": [
+        {
+          "nome": "Michele",
+          "data_prestito": "2025-08-28"
+        }
+      ]
+    }
+  },
+  "generi": [
+    "narrativa",
+    "giallo",
+    "fantasy",
+    "mistero"
+  ],
+  "statistiche": {
+    "totale_libri": 4,
+    "libri_disponibili": 2
+  }
+}
