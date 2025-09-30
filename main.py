@@ -216,7 +216,7 @@ def main():
         print("Errore: File JSON corrotto!")
         exit()
 
-    print(SEPARATORE)
+    print("=" * 20)
     print("Gestione di una Biblioteca .json")
 
     while True:
@@ -261,5 +261,5 @@ def main():
 
         except Exception as e: print(f"Errore imprevisto: {e}")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
